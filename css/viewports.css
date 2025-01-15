@@ -1,0 +1,282 @@
+@media (min-width: 1024px) {
+  .trigram {
+    display: none;
+  }
+  button:hover {
+    background-color: white;
+    border: 1px solid #2476ff;
+    color: #2476ff;
+  }
+  .fa-solid.fa-circle-play:hover {
+    background-color: white;
+    color: #2476ff;
+  }
+  .monthly-payment:hover {
+    box-shadow: 0 10px 20px gray;
+  }
+  li:hover,
+  .privacy span:hover,
+  .contact-info span:hover {
+    color: #2476ff;
+  }
+  .google-logo {
+    animation: 2s google;
+  }
+  @keyframes google {
+    from {
+      left: 500px;
+      opacity: 0;
+    }
+    to {
+      left: 64px;
+      opacity: 1;
+    }
+  }
+  .atlassian-logo {
+    animation: 2s atlassian;
+  }
+  @keyframes atlassian {
+    from {
+      top: 500px;
+      opacity: 0;
+    }
+    to {
+      top: -20px;
+      opacity: 1;
+    }
+  }
+  .asana-logo {
+    animation: 2s asana;
+  }
+  @keyframes asana {
+    from {
+      left: 564px;
+      opacity: 0;
+    }
+    to {
+      left: 380px;
+      opacity: 1;
+    }
+  }
+  .paypal-logo {
+    animation: 2s paypal;
+  }
+  @keyframes paypal {
+    from {
+      top: 600px;
+      opacity: 0;
+    }
+    to {
+      top: -18px;
+      opacity: 1;
+    }
+  }
+  .weave-logo {
+    animation: 2s weave;
+  }
+  @keyframes weave {
+    from {
+      left: -300px;
+      opacity: 0;
+    }
+    to {
+      left: 262px;
+      opacity: 1;
+    }
+  }
+  .ads-logo {
+    animation: 2s ads;
+  }
+  @keyframes ads {
+    from {
+      top: -400px;
+      opacity: 0;
+    }
+    to {
+      top: -40px;
+      opacity: 1;
+    }
+  }
+  .calendar-logo {
+    animation: 2s calendar;
+  }
+  @keyframes calendar {
+    from {
+      top: -400px;
+      opacity: 0;
+    }
+    to {
+      top: -80px;
+      opacity: 1;
+    }
+  }
+}
+
+@media (max-width: 1023px) {
+  .trigram {
+    display: block;
+  }
+  nav ul,
+  .nav-button {
+    display: none;
+  }
+  .monthly-payment {
+    box-shadow: 0 10px 20px gray;
+  }
+  .introduction-content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .title-container,
+  .document-title {
+    align-items: center;
+    width: auto;
+  }
+  .hire-us-info {
+    flex-direction: row;
+    padding: 40px 30px 20px;
+  }
+  .logos {
+    width: 100%;
+  }
+  .google-logo {
+    top: 40px;
+    left: 110px;
+  }
+  .atlassian-logo {
+    bottom: 20px;
+    left: 287px;
+  }
+  .asana-logo {
+    bottom: 100px;
+    left: 540px;
+  }
+  .paypal-logo {
+    bottom: 18px;
+    left: 115px;
+  }
+  .weave-logo {
+    bottom: 98px;
+    left: 415px;
+  }
+  .ads-logo {
+    bottom: 40px;
+    left: 230px;
+  }
+  .calendar-logo {
+    bottom: 80px;
+    left: 520px;
+  }
+  .pricing-content {
+    flex-direction: column;
+  }
+  .monthly-payment {
+    width: 100%;
+    align-items: center;
+  }
+  .monthly-payment div p {
+    text-align: center;
+  }
+  .hire-us {
+    flex-direction: column;
+  }
+  .form-submit {
+    display: flex;
+    justify-content: center;
+  }
+  .sources-container {
+    flex-direction: column;
+    gap: 50px;
+  }
+}
+
+@media (max-width: 767px) {
+  h1,
+  .document-title p {
+    text-align: center;
+  }
+  .google-logo {
+    top: 40px;
+    left: 0;
+  }
+  .atlassian-logo {
+    bottom: 20px;
+    left: 115px;
+  }
+  .asana-logo {
+    bottom: 100px;
+    left: 250px;
+  }
+  .paypal-logo {
+    bottom: 18px;
+    left: 0;
+  }
+  .weave-logo {
+    bottom: 98px;
+    left: 185px;
+  }
+  .ads-logo {
+    bottom: 40px;
+    left: 105px;
+  }
+  .calendar-logo {
+    bottom: 80px;
+    left: 240px;
+  }
+  .info-visual {
+    flex-direction: column;
+  }
+  .info-visual .visual {
+    flex-direction: row;
+    /* width: auto; */
+    justify-content: flex-start;
+  }
+  .visual .circle-container {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: auto;
+  }
+  .visual span {
+    text-align: left;
+    width: 250px;
+    flex: 1;
+    color: black;
+  }
+  .line,
+  .transparent {
+    display: none;
+    flex: 0;
+  }
+  .pricing-benefits div {
+    flex-direction: column;
+  }
+  .hire-us-info {
+    flex-direction: column;
+  }
+  .hire-us-header,
+  .head-guy-info {
+    align-items: center;
+  }
+  .hire-us-header hr {
+    width: 100%;
+  }
+  .name,
+  .select-inputs {
+    flex-direction: column;
+  }
+  .privacy span:last-of-type {
+    display: none;
+  }
+  .footer-content,
+  .footer-sources,
+  .contact-info,
+  .sources-container div {
+    flex-direction: column;
+    align-items: center;
+  }
+  .sources-container h3,
+  .links ul {
+    text-align: center;
+  }
+}
